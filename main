@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Online Site</title>
+	<style>
+		/* CSS styles for the GUI */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color: #666;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: #fff;
+			margin: 0 10px;
+			text-decoration: none;
+		}
+		section {
+			background-color: #fff;
+			padding: 10px;
+			margin: 10px;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<!-- HTML markup for the GUI -->
+	<header>
+		<h1>My Online Site</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	<section>
+		<h2>Welcome to My Online Site!</h2>
+		<p>This is a simple GUI created using HTML, CSS, and JavaScript.</p>
+		<button onclick="alert('Hello World!')">Click Me</button>
+	</section>
+	<footer>
+		<p>&copy; 2023 My Online Site. All rights reserved.</p>
+	</footer>
+</body>
+</html>
